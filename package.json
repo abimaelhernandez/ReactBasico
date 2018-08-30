@@ -1,0 +1,25 @@
+{
+  "name": "reactbasico",
+  "version": "1.0.0",
+  "description": "show basics ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js --watch --mode development",
+    "start-dev": "nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abimaelhernandez/ReactBasico.git"
+  },
+  "author": "abimaelhernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abimaelhernandez/ReactBasico/issues"
+  },
+  "homepage": "https://github.com/abimaelhernandez/ReactBasico#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.4.2"
+  }
+}
