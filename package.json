@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --config webpack.config.js --watch --mode development",
-    "start-dev": "nodemon server/index.js",
     "start": "node server/index.js"
   },
   "repository": {
@@ -20,6 +19,17 @@
   "homepage": "https://github.com/abimaelhernandez/ReactBasico#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "react": "^16.4.2"
+    "jquery": "^3.3.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4"
   }
 }
